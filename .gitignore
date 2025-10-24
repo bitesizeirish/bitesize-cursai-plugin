@@ -1,0 +1,31 @@
+# WordPress
+.htaccess
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Composer
+/vendor/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build files
+/dist/
+/build/
+
+# Logs
+*.log
+
