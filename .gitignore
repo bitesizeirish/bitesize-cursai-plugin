@@ -38,6 +38,6 @@ composer.phar
 # Logs
 *.log
 
-# Package lock files (optional - uncomment if you want to ignore)
-# package-lock.json
+# Package lock files
+package-lock.json
 
