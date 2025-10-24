@@ -27,6 +27,11 @@ yarn-error.log
 /build/
 *.zip
 
+# Built assets
+/assets/css/audio-button.css
+/assets/css/audio-button.css.map
+/assets/js/audio-button.js
+
 # Composer
 composer.phar
 

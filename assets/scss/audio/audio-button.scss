@@ -1,0 +1,127 @@
+.bitesize-audio {
+  /* Bulma media */
+  margin-bottom: 1.5rem;
+  display: flex;
+  text-align: left;
+  font-size: 1.1em;
+  justify-content: flex-end; 
+	
+  /* Bulma box */
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-out;
+  background-color: #fff;
+  color: #4a4a4a;
+  padding: 1.25rem;
+  position: relative;
+}
+
+.bitesize-audio:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bitesize-audio:active {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bitesize-audio .bitesize-audio__admin {
+  display: none;
+}
+
+.user-role-administrator .bitesize-audio .bitesize-audio__admin,
+.user-role-editor .bitesize-audio .bitesize-audio__admin,
+.wp-admin .bitesize-audio .bitesize-audio__admin {
+  display: block;
+  right: 50px;
+  color: lightslategray;
+  align-self: flex-start;
+}
+
+
+.bitesize-audio__left {
+  /* Bulma media-left */
+  margin-right: 1rem;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.bitesize-audio__left button {
+  width: 60px;
+  height: 60px;
+  font-size: 1.25rem;
+  background-color: #fa5923;
+  border-color: transparent;
+  color: #fff;
+  border-width: 1px;
+  /* Center the icon horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 4px;
+  box-shadow: none;
+  line-height: 1;
+  position: relative;
+  vertical-align: top;
+
+  /* smoothly animate the button when it is hovered or clicked */
+  transition: all 0.2s ease-out;
+}
+
+.bitesize-audio__left button:hover {
+  background-color: #E24F1F; /* a darker shade of purple */
+  border-color: #fa5923;
+  cursor: pointer;
+}
+
+.bitesize-audio__left button:hover,
+.bitesize-audio__left button:focus {
+  box-shadow: 0px 0px 10px 3px rgba(103, 35, 250, 0.4);
+}
+
+.bitesize-audio__left button:active {
+  transform: scale(0.9);
+  box-shadow: 0px 0px 5px 3px rgba(196,35,250,0.4);
+  background-color: #ff33cc;
+  border-color: #ff33cc;
+}
+
+.bitesize-audio__content {
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: left;
+}
+
+p.bitesize-audio__irish {
+  margin-bottom: 0.5rem !important;
+  margin-block-start: 0;
+  color: #363636;
+  font-weight: 600;
+  line-height: 1.125;
+  word-break: break-word;
+}
+
+p.bitesize-audio__translation {
+  margin-top: 0;
+  margin-bottom: 0.5rem !important;
+  color: #4a4a4a;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+p.bitesize-audio__pronunciation {
+  font-weight: 300;
+  color: #99ada0;
+  margin-bottom: 0 !important;
+}
+
+.bitesize-audio__share {
+  margin-top: 1em;
+  font-size: 16px;
+  text-align: center;
+}
