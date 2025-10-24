@@ -1,0 +1,77 @@
+---
+description: Fonts and colours for the Bitesize Irish brand
+globs:
+alwaysApply: false
+---
+# Branda Bitesize
+
+Stakeholders: Eoin
+Type: Tagairt
+Last Edited Time: August 7, 2025 12:55 PM
+Area: Marketing
+
+
+# An Branda
+
+- Aistear
+- Cumhach (nostalgic)
+
+## Motto
+
+Gaeilge Gach Lá
+
+## Guth
+
+Éireannach, nua-aimseartha, spraoiúil.
+
+## Sprioc
+
+Daoine a spreagadh le Gaeilge Gach Lá a bhaint amach ar a aistear foghlama.
+
+# Fonts
+
+**Headings**: *Roboto Condensed Bold*
+
+**Text**: *Raleway*
+
+Specials: 
+
+Special “Tips” and callouts: *IM Fell DW Pica (by Igino Mariani) (use sparingly)*
+
+# Dathanna
+
+### Light Yellow Background
+
+Hex code:
+
+`#fbfadc`
+
+Evokes a bit of a mix of manuscript and nostalgia.
+
+![Untitled](Branda%20Bitesize%20f6051213d0064b8d8590780c2cb22e7b/Untitled.png)
+
+### Headings oráiste
+
+`#fa5923`
+
+![Untitled](Branda%20Bitesize%20f6051213d0064b8d8590780c2cb22e7b/Untitled%201.png)
+
+(Hover darker orange: `#CB491D`)
+
+### CTA Blue
+
+Link or button colour: `#0056B3`
+
+Hover: `#0170B9`
+
+Button rounding: 8px.
+
+![image.png](Branda%20Bitesize%20f6051213d0064b8d8590780c2cb22e7b/image.png)
+
+## Soft white background
+
+`#fefefe`
+
+This is great for founded text boxes or cards that are against the Light Yellow Background of the brand.
+
+Text box rounding: 25px.

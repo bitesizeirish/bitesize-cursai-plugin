@@ -1,0 +1,48 @@
+---
+description: Summary of the existing infrastructure including page IDs
+globs:
+alwaysApply: false
+---
+
+The Gaeilge Gach Lá Challenge is a free lead-magnet for Bitesize Irish. A guided week of creativity, reflection and cultural expression. No grammar drills, just soulful connection.
+
+How we deliver it is get leads to submit a form integrated with Active Campaign, email them daily, and then point them to a specific page on this Bitesize Irish site for each day.
+
+Engagements is via Wordpress comments (using the Thrive Comments plugin which makes the UI nicer).
+
+So, users are commenting on these specific pages:
+
+- Monday
+    - https://www.bitesize.irish/gachla/monday-write/
+    - Page ID: 22448
+- Tuesday
+    - https://www.bitesize.irish/gachla/tuesday-pledge/
+    - Page ID: 22529
+- Wednesday
+    - https://www.bitesize.irish/gachla/wednesday-read/
+    - Page ID: 22563
+- Thursday
+    - https://www.bitesize.irish/gachla/thursday-listen/
+    - Page ID: 22601
+- Friday
+    - https://www.bitesize.irish/gachla/friday-celebrate/
+    - Page ID: 22675
+
+They also get an offer at the end of the challenge.
+
+## Gaeilge Gach Lá – daily challenge pages
+
+Monday – “Why”
+Synopsis: Learner writes (and comments) on why they’re taking the challenge; encouraged to reply to two others and, if able, include a little Irish.
+
+Tuesday – “Pledge”
+Synopsis: Learner publicly pledges “Gaeilge Gach Lá,” says it aloud, cheers on two peers; optional creative task to draw / paint the phrase.
+	
+Wednesday – “Read”
+Synopsis: Reads a 10-count nursery rhyme with audio + phonetics; comments on how it felt; optional two-line poem (Irish or mixed).
+
+Thursday – “Proverbs”
+Synopsis: Listens to five seanfhocail, chooses one that resonates and explains why; optional research-and-share of another proverb; page introduces exclusive Gaeilge Gateway offer.
+
+Friday – “Celebrate”
+Synopsis: Watches traditional-music lesson (from Gaeilge Gateway), posts a favourite Irish-language song link + reflection on the week; main CTA to challenge-only Gaeilge Gateway offer, with a softer secondary link to Sing in Irish course.

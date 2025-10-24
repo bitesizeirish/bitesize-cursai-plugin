@@ -1,0 +1,8 @@
+---
+description: Gotchas that sometimes cause bugs
+globs:
+alwaysApply: true
+---
+
+- Since the site uses Thrive Comments, you might have a comment in the Wordpress database with `comment_type` as `comment` as well as ``.
+- After editing any PHP files, always run `npm run lint:php` (or `php -l`) and fix syntax errors before marking the work finished, to ensure no broken PHP code is delivered.

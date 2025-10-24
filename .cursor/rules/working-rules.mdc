@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+
+- Project plans: it's fine to sote markdown files for large project, but keep them orderly in `/project-docs`.
