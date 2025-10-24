@@ -3,7 +3,7 @@
  * Plugin Name: Bitesize Cúrsaí
  * Plugin URI: https://github.com/bitesizeirish/bitesize-cursai-plugin
  * Description: Custom WordPress plugin for Bitesize Irish Cúrsaí membership site customizations
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Bitesize Irish
  * Author URI: https://bitesize.irish
  * License: GPL v2 or later
@@ -19,8 +19,9 @@ if (!defined('WPINC')) {
 
 /**
  * Current plugin version.
+ * Updated automatically by build script.
  */
-define('BITESIZE_CURSAI_VERSION', '1.0.0');
+define('BITESIZE_CURSAI_VERSION', '1.0.1');
 
 /**
  * Plugin directory path.

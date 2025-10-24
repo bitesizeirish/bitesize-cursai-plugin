@@ -1,0 +1,49 @@
+{
+    "name": "bitesizeirish/cursai-plugin",
+    "description": "Custom WordPress plugin for Bitesize Irish Cúrsaí membership site",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Bitesize Irish",
+            "email": "info@bitesizeirish.ie"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "wp-coding-standards/wpcs": "^2.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "BitesizeCursai\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BitesizeCursai\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "phpcs": "phpcs --standard=WordPress src/",
+        "phpcbf": "phpcbf --standard=WordPress src/",
+        "build": [
+            "@composer install --no-dev --optimize-autoloader",
+            "npm run build"
+        ],
+        "build-dev": [
+            "@composer install",
+            "npm run build:dev"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
+

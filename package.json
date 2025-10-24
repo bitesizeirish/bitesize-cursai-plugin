@@ -1,0 +1,47 @@
+{
+  "name": "bitesize-cursai-plugin",
+  "version": "1.0.1",
+  "description": "Custom WordPress plugin for Bitesize Irish Cúrsaí membership site",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run version:bump && npm run build:css && npm run build:js",
+    "build:css": "echo 'No CSS to build yet' || true",
+    "build:js": "echo 'No JS to build yet' || true",
+    "build:dev": "npm run lint:php && npm run build:css:dev && npm run build:js:dev",
+    "build:css:dev": "echo 'No CSS to build yet' || true",
+    "build:js:dev": "echo 'No JS to build yet' || true",
+    "watch": "npm run watch:css & npm run watch:js",
+    "watch:css": "echo 'No CSS to watch yet' || true",
+    "watch:js": "echo 'No JS to watch yet' || true",
+    "lint:php": "node scripts/php-lint.js",
+    "lint:php:fix": "echo 'PHP syntax errors must be fixed manually. Check the files listed above.'",
+    "test:syntax": "npm run lint:php",
+    "pre-deploy": "npm run lint:php && npm run build",
+    "version": "npm run pre-deploy && npm run version:bump",
+    "version:bump": "node scripts/version-bump.js",
+    "deploy": "npm run zip",
+    "zip": "node scripts/create-zip.js",
+    "clean": "rm -rf build dist",
+    "setup-hooks": "git config core.hooksPath .githooks",
+    "postinstall": "npm run setup-hooks"
+  },
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "semver": "^7.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "sass": "^1.90.0",
+    "terser": "^5.24.0"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "bitesize",
+    "irish",
+    "cursai",
+    "membership"
+  ],
+  "author": "Bitesize Irish",
+  "license": "GPL-2.0-or-later"
+}

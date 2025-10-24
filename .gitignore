@@ -25,7 +25,14 @@ yarn-error.log
 # Build files
 /dist/
 /build/
+*.zip
+
+# Composer
+composer.phar
 
 # Logs
 *.log
+
+# Package lock files (optional - uncomment if you want to ignore)
+# package-lock.json
 
