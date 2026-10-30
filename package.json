@@ -1,6 +1,6 @@
 {
   "name": "bitesize-cursai-plugin",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Custom WordPress plugin for Bitesize Irish Cúrsaí membership site",
   "main": "index.js",
   "scripts": {
