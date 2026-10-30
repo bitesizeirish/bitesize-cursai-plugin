@@ -3,7 +3,7 @@
  * Plugin Name: Bitesize Cúrsaí
  * Plugin URI: https://github.com/bitesizeirish/bitesize-cursai-plugin
  * Description: Custom WordPress plugin for Bitesize Irish Cúrsaí membership site customizations
- * Version: 1.0.8
+ * Version: 1.0.9
  * Author: Bitesize Irish
  * Author URI: https://bitesize.irish
  * License: GPL v2 or later
@@ -21,7 +21,7 @@ if (!defined('WPINC')) {
  * Current plugin version.
  * Updated automatically by build script.
  */
-define('BITESIZE_CURSAI_VERSION', '1.0.8');
+define('BITESIZE_CURSAI_VERSION', '1.0.9');
 
 /**
  * Plugin directory path.
@@ -55,6 +55,7 @@ register_deactivation_hook(__FILE__, 'deactivate_bitesize_cursai');
 require_once BITESIZE_CURSAI_PLUGIN_DIR . 'src/Audio/SoundService.php';
 require_once BITESIZE_CURSAI_PLUGIN_DIR . 'src/Audio/AudioButton.php';
 require_once BITESIZE_CURSAI_PLUGIN_DIR . 'src/Admin/AudioCacheManager.php';
+require_once BITESIZE_CURSAI_PLUGIN_DIR . 'src/Courses/CourseGrid.php';
 
 /**
  * Begin execution of the plugin.
@@ -62,6 +63,9 @@ require_once BITESIZE_CURSAI_PLUGIN_DIR . 'src/Admin/AudioCacheManager.php';
 function run_bitesize_cursai() {
     // Initialize audio button functionality
     \BitesizeCursai\Audio\AudioButton::get_instance();
+
+    // Initialize course grid shortcode
+    \BitesizeCursai\Courses\CourseGrid::get_instance();
     
     // Initialize admin dashboard (only in admin)
     if (is_admin()) {
